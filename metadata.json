@@ -1,0 +1,6 @@
+{
+  "name": "Hệ thống Quản lý Nhân sự - Chi cục Chăn nuôi & Thú y TPHCM",
+  "description": "Hệ thống quản lý nhân sự, hồ sơ điện tử, cơ cấu tổ chức, quá trình công tác, tiền lương, đào tạo, khen thưởng kỷ luật và đồng bộ Google Sheets & Google Drive cho Chi cục Chăn nuôi và Thú y TPHCM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
