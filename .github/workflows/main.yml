@@ -1,0 +1,23 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Sao chép mã nguồn (Checkout)
+      uses: actions/checkout@v4
+
+    - name: Cài đặt môi trường Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Cài đặt thư viện và Build dự án
+      run: |
+        npm install
+        npm run build
